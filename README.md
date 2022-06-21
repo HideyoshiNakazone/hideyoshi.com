@@ -149,7 +149,7 @@ At the moment you have several options to run the application, you can run each 
     ```
     git clone https://github.com/HideyoshiNakazone/infra-hideyoshi.com.git
     cd ./infra-hideyoshi.com
-    ./deploy --test
+    ./deploy.sh --test
     ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
