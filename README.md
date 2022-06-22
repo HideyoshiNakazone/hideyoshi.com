@@ -100,10 +100,7 @@ At the moment you have several options to run the application, you can run each 
 
 * Full Deployment:
 
-    - npm
-        ```sh
-        npm install npm@latest -g
-        ```
+    - [Installing kvm2 on Ubuntu](https://ubuntu.com/blog/kvm-hyphervisor)
     
     - minikube (Linux)
         ```
