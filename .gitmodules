@@ -1,0 +1,9 @@
+[submodule "frontend-hideyoshi.com"]
+	path = frontend-hideyoshi.com
+	url = git@github.com:HideyoshiNakazone/frontend-hideyoshi.com.git
+[submodule "backend-hideyoshi.com"]
+	path = backend-hideyoshi.com
+	url = git@github.com:HideyoshiNakazone/backend-hideyoshi.com.git
+[submodule "infra-hideyoshi.com"]
+	path = infra-hideyoshi.com
+	url = git@github.com:HideyoshiNakazone/infra-hideyoshi.com.git

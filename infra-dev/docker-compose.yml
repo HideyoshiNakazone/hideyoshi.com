@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:12.2
+    restart: always
+    ports:
+     - "5432:5432"    
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+     - ./postgres/data/9.6:/var/lib/postgresql/data
+     - ./postgres/backups:/backups
+    networks:
+      - postgres
+  
+networks:
+  postgres:
+   driver: bridge
+   ipam:
+     driver: default
+     config:
+      - subnet: 172.30.0.1/20
