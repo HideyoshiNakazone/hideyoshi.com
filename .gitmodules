@@ -7,3 +7,9 @@
 [submodule "infra-hideyoshi.com"]
 	path = infra-hideyoshi.com
 	url = git@github.com:HideyoshiNakazone/infra-hideyoshi.com.git
+[submodule "terraform-hideyoshi.com"]
+	path = terraform-hideyoshi.com
+	url = https://github.com/HideyoshiNakazone/terraform-hideyoshi.com.git
+[submodule "storage-hideyoshi.com"]
+	path = storage-hideyoshi.com
+	url = https://github.com/HideyoshiNakazone/storage-hideyoshi.com.git
