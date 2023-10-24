@@ -39,19 +39,11 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#executing-project">Executing Project</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -60,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is the result of my curiosity of web applications and the necessity for a portfolio, which results in this awesome web portfolio. Built with Angular and Spring and deployed in kubernetes this project uses the best technologies available.
+This project is the result of my curiosity for web applications and the necessity for a portfolio, which results in this awesome web portfolio. Built with Angular, Spring, FastAPI and deployed with kubernetes and terraform this project implements the bests industry standards.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -70,86 +62,20 @@ This project is the result of my curiosity of web applications and the necessity
 
 This project is composed of the following technologies:
 
-* Frontend: [Angular](https://angular.io/) (Currently using AngularJS but Angular2+ on development);
+* Frontend: [Angular](https://angular.io/);
 * Backend: [Spring Boot](http://spring.io/)
-* Deployment: [kubernetes](https://kubernetes.io/pt-br/)
+* Storage Service: [FastAPI](https://fastapi.tiangolo.com/)
+* Deployment: [Kubernetes](https://kubernetes.io/pt-br/)
+* Infrastructure Configuration: [Terraform](https://www.terraform.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+## Executing Project
 
-<!-- GETTING STARTED -->
-## Getting Started
+- For standalone execution read each project documentation;
 
-At the moment you have several options to run the application, you can run each individual projects or you can run the full application using the deployment with minikube.
-
-### Prerequisites
-
-* Stand Alone Deployment:
-
-    - npm
-        ```sh
-        npm install npm@latest -g
-        ```
-    
-    - Docker-compose (Linux)
-        ```
-        sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-        sudo chmod +x /usr/local/bin/docker-compose
-        ```
-
-* Full Deployment:
-
-    - [Installing kvm2 on Ubuntu](https://ubuntu.com/blog/kvm-hyphervisor)
-    
-    - minikube (Linux)
-        ```
-        curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-        sudo install minikube-linux-amd64 /usr/local/bin/minikube
-        ```
-
-### Installation
-
-* Stand Alone Deployment:
-
-    This option requires you to set the environment variable, follow the exemple files.
-    After setting the environment variable, create a directory and start each package:
-
-    ```
-    mkdir hideyoshi-portfolio
-    cd ./hideyoshi-portfolio
-    ```
-
-    - Frontend:
-
-        ```
-        git clone https://github.com/HideyoshiNakazone/frontend-hideyoshi.com.git
-        cd ./frontend-hideyoshi.com
-        npm install .
-        node ./serv.js
-        cd ..
-        ```
-
-    - Backend:
-
-        ```
-        git clone https://github.com/HideyoshiNakazone/backend-hideyoshi.com.git
-        cd ./backend-hideyoshi.com
-        mvn spring-boot:run
-        cd ..
-        ```
-
-* Full Deployment:
-
-    Sets the entire environment using minikube
-
-    ```
-    git clone https://github.com/HideyoshiNakazone/infra-hideyoshi.com.git
-    cd ./infra-hideyoshi.com
-    ./deploy.sh --test
-    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+- For a complete execution read the [infra-hideyoshi.com](https://github.com/HideyoshiNakazone/infra-hideyoshi.com) project documentation.
 
 
 <!-- LICENSE -->
@@ -180,9 +106,27 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Vitor Hideyoshi - [@NakazoneVitor](https://twitter.com/NakazoneVitor) - vitor.h.n.batista@gmail.com
-
-Project Link: [https://github.com/HideyoshiNakazone/hideyoshi.com](https://github.com/HideyoshiNakazone/hideyoshi.com)
+<div align="center">
+    <h2>Contact Me</h2>
+    <div>
+        <a href="https://github.com/HideyoshiNakazone">
+            <img alt="Github"
+                src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+        </a>
+        <a href="https://twitter.com/NakazoneVitor">
+            <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"
+                alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/vitor-hideyoshi/">
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                alt="">
+        </a>
+        <a href="https://www.instagram.com/vitor_hideyoshi/">
+            <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+                alt="">
+        </a>
+    </div>
+</div>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
