@@ -1,15 +1,20 @@
 [submodule "frontend-hideyoshi.com"]
 	path = frontend-hideyoshi.com
-	url = https://github.com/HideyoshiNakazone/frontend-hideyoshi.com.git
+	url = https://github.com/HideyoshiSolutions/frontend-hideyoshi.com.git
+	branch = main
 [submodule "backend-hideyoshi.com"]
 	path = backend-hideyoshi.com
-	url = https://github.com/HideyoshiNakazone/backend-hideyoshi.com.git
+	url = https://github.com/HideyoshiSolutions/backend-hideyoshi.com.git
+	branch = main
 [submodule "infra-hideyoshi.com"]
 	path = infra-hideyoshi.com
-	url = https://github.com/HideyoshiNakazone/infra-hideyoshi.com.git
+	url = https://github.com/HideyoshiSolutions/infra-hideyoshi.com.git
+	branch = main
 [submodule "terraform-hideyoshi.com"]
 	path = terraform-hideyoshi.com
-	url = https://github.com/HideyoshiNakazone/terraform-hideyoshi.com.git
+	url = https://github.com/HideyoshiSolutions/terraform-hideyoshi.com.git
+	branch = main
 [submodule "storage-hideyoshi.com"]
 	path = storage-hideyoshi.com
-	url = https://github.com/HideyoshiNakazone/storage-hideyoshi.com.git
+	url = https://github.com/HideyoshiSolutions/storage-hideyoshi.com.git
+	branch = main
